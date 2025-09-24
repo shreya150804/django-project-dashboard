@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key-for-dev')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = False
 
 # Allow Render domain (update with your actual Render app domain)
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'django-project-dashboard.onrender.com').split(',')
