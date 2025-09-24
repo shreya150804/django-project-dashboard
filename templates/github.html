@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>GitHub Repos for {{ username }}</h2>
+<ul>
+  {% for repo in repos %}
+    <li><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></li>
+  {% empty %}
+    <li>No repos found</li>
+  {% endfor %}
+</ul>
+{% endblock %}
