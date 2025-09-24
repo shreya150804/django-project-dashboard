@@ -16,7 +16,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key-for-dev')
 DEBUG = False
 
 # Allow Render domain (update with your actual Render app domain)
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'django-project-dashboard.onrender.com').split(',')
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
 
 # Application definition
 INSTALLED_APPS = [
