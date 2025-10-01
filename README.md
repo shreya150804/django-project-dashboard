@@ -19,10 +19,4 @@ This project demonstrates a clean frontend design using **Bootstrap**, a functio
 - **Database:** PostgreSQL
 - **Python Version:** 3.10+
 
-## Setup Instructions
 
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/yourusername/django-project-dashboard.git
-cd django-project-dashboard
